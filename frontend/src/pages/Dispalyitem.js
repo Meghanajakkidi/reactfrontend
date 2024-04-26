@@ -11,19 +11,15 @@ function  Dispalyitem(){
         }).then(function (result) {
             setlist(result)
         })
+
+
     },[])
     return(
         <div>
             {list.map((item) => {
                             return (
                                 <div>{item}</div>
-                                
-                                    
-                                    
-                                    
-                                
-                                
-                            )
+                                 )
                              } ) }
         </div>
     )
